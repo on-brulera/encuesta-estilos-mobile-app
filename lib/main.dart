@@ -1,3 +1,4 @@
+import 'package:estilosapp/Screens/login/login_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,16 +12,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter App',
       theme: ThemeData(        
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
+        useMaterial3: true,        
       ),
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Estilos Client'),
-        ),
-        body: const Placeholder(),
+      home: const Scaffold(        
+        body: LoginScreen(),
       )
     );
   }
