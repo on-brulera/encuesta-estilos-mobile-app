@@ -8,7 +8,7 @@ App for UTN students and professors
 
 - [x] _Ramirez Henry_
 
-#To run Flutter project on local:
+# To run Flutter project on local:
 
 1. Clone this repository
 
